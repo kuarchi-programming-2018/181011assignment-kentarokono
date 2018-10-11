@@ -1,4 +1,4 @@
-# coding: utf-8
+﻿# coding: utf-8
 
 '''
 演習課題「おみくじを作ろう」
@@ -24,8 +24,11 @@ import random
 line = input().rstrip()
 
 # 今回は自力で全部書いてみよう！
-
 # カンマで分割して、リストに代入
+omikuzi=["大吉","中吉","吉","凶"]
 # リストの要素数を変数に代入
+num=len(omikuzi)
 # リストの中身を出力
+print(omikuzi)
 # ランダムに選んだリストの要素を出力
+print(omikuzi[random.randrange(num)])
